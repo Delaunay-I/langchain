@@ -8,8 +8,6 @@
 
 import openai
 
-openai.api_key = "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"
-
 try:
     response = openai.Completion.create(
         engine="text-davinci-002",
